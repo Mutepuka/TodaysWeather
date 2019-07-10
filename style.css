@@ -1,0 +1,57 @@
+/*** 
+css document
+***1. set to default
+***2. set the html body properties
+
+***/
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html body
+{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(244,175,12), rgb(231,137,4));
+    /*background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);*/
+   /* background-image: linear-gradient(to right top, #8b1156, #a40073, #b90095, #c800bd, #cf12eb);*/
+    font-family: sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+
+}
+.location, .temp
+{
+    width: 50%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.temp
+{
+    flex-direction: column;
+}
+.d-section
+{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.d-section span
+{
+    font-size: 30px;
+    margin: 10px;
+}
+.d-section h2
+{
+    font-size: 40px;
+}
