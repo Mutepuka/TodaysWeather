@@ -7,4 +7,4 @@ You can create a free account here <a href="https://darksky.net/dev"> Dark Sky <
 Provides you with a skycons.js file that allows you to use animated icons in your application <br>
 The how to is documented at this link:<br>
 <li><a href="https://darkskyapp.github.io/skycons/">darkskyapp</a></li>
-<b> This download the github files heres</b> <a href="https://github.com/darkskyapp/skycons">darkskyapp/skycons</a>
+<b>download the github files heres</b> <a href="https://github.com/darkskyapp/skycons">darkskyapp/skycons</a>
