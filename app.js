@@ -21,7 +21,7 @@ window.addEventListener('load', ()=>{
             // note the last / 37.826, -1222 is the website lat and long
             // cos problem solve to access location using localhost 
             const proxy = 'https://cors-anywhere.herokuapp.com/';
-            const api = `${proxy}https://aark.sky.api.key/${lat},${long}`;
+            const api = `${proxy}https://dark.sky.api.key/${lat},${long}`;
 
             // fetch the data 
             fetch(api)
