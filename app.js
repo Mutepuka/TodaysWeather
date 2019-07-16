@@ -18,8 +18,9 @@ window.addEventListener('load', ()=>{
             lat = position.coords.latitude;
             
             // create a constant variable 
-            // note the last / 37.826, -1222 is the website lat and long
             // cos problem solve to access location using localhost 
+            // note: replace this dark.sky.api.key with the api key generated with your account
+
             const proxy = 'https://cors-anywhere.herokuapp.com/';
             const api = `${proxy}https://dark.sky.api.key/${lat},${long}`;
 
