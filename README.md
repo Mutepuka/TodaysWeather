@@ -8,3 +8,5 @@ Provides you with a skycons.js file that allows you to use animated icons in you
 The how to is documented at this link:<br>
 <li><a href="https://darkskyapp.github.io/skycons/">darkskyapp</a></li>
 <b>download the github files heres</b> <a href="https://github.com/darkskyapp/skycons">darkskyapp/skycons</a>
+<h4>NOTES; from me</h4>
+Once you make an account with Darksky you will be given a key generated for you api. In the app.js file replace this text <b>dark.sky.api.key</b> with your API Key.
